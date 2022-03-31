@@ -53,6 +53,7 @@ body{
     color: white;
     border-radius: 40px;
     background-color: #000;
+    cursor: pointer;
 }
 .boton:hover {
     background-color: #280933;
