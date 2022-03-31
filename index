@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tablero de Ajedrez </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1><center><big>Ajedrez</big></center></h1>
+    <h2 class="boton">Jugar</h2>
+    <div class="tablero">
+        <!--Fila 1 | Negras-->
+        <div class="filas">
+            <div class="columna"> <span>&#9820;</span> </div>
+            <div class="columna black"> <span>&#9822;</span> </div>
+            <div class="columna"> <span>&#9821;</span> </div>
+            <div class="columna black"> <span>&#9819;</span> </div>
+            <div class="columna"> <span>&#9818;</span> </div>
+            <div class="columna black"> <span>&#9821;</span> </div>
+            <div class="columna"> <span>&#9822;</span> </div>
+            <div class="columna black"> <span>&#9820;</span> </div>
+        </div>
+
+        <!--Fila 2 | Negras-->
+        <div class="filas">
+            <div class="columna peon-black-1 black"> <span>&#9823;</span> </div>
+            <div class="columna peon-black-2 "> <span>&#9823;</span> </div>
+            <div class="columna peon-black-3 black"> <span>&#9823;</span> </div>
+            <div class="columna peon-black-4 "> <span>&#9823;</span> </div>
+            <div class="columna peon-black-5 black"> <span>&#9823;</span> </div>
+            <div class="columna peon-black-6 "> <span>&#9823;</span> </div>
+            <div class="columna peon-black-7 black"> <span>&#9823;</span> </div>
+            <div class="columna peon-black-8"> <span>&#9823;</span> </div>
+        </div>
+
+        <!--Fila 3-->
+        <div class="filas">
+            <div class="columna"></div>
+            <div class="columna black"></div>
+            <div class="columna"></div>
+            <div class="columna black"></div>
+            <div class="columna"></div>
+            <div class="columna black"></div>
+            <div class="columna"></div>
+            <div class="columna black"></div>
+        </div>
+
+        <!--Fila 4-->
+        <div class="filas">
+            <div class="columna black"></div>
+            <div class="columna "></div>
+            <div class="columna black"></div>
+            <div class="columna "></div>
+            <div class="columna black"></div>
+            <div class="columna "></div>
+            <div class="columna black"></div>
+            <div class="columna"></div>
+        </div>
+
+        <!--Fila 5-->
+        <div class="filas">
+            <div class="columna"></div>
+            <div class="columna black"></div>
+            <div class="columna"></div>
+            <div class="columna black"></div>
+            <div class="columna"></div>
+            <div class="columna black"></div>
+            <div class="columna"></div>
+            <div class="columna black"></div>
+        </div>
+
+        <!--Fila 6-->
+        <div class="filas">
+            <div class="columna black"></div>
+            <div class="columna "></div>
+            <div class="columna black"></div>
+            <div class="columna "></div>
+            <div class="columna black"></div>
+            <div class="columna "></div>
+            <div class="columna black"></div>
+            <div class="columna"></div>
+        </div>
+
+        <!--Fila 7 | Negras-->
+        <div class="filas">
+            <div class="columna peon-white-1"> <span>&#9817;</span> </div>
+            <div class="columna peon-white-2 black"> <span>&#9817;</span> </div>
+            <div class="columna peon-white-3"> <span>&#9817;</span> </div>
+            <div class="columna peon-white-4 black"> <span>&#9817;</span> </div>
+            <div class="columna peon-white-5"> <span>&#9817;</span> </div>
+            <div class="columna peon-white-6 black"> <span>&#9817;</span> </div>
+            <div class="columna peon-white-7"> <span>&#9817;</span> </div>
+            <div class="columna peon-white-8 black"> <span>&#9817;</span> </div>
+        </div>
+
+        <!--Fila 8 | Negras--> 
+        <div class="filas">
+            <div class="columna black"> <span>&#9814;</span> </div>
+            <div class="columna "> <span>&#9816;</span> </div>
+            <div class="columna black"> <span>&#9815;</span> </div>
+            <div class="columna "> <span>&#9813;</span> </div>
+            <div class="columna black"> <span>&#9812;</span> </div>
+            <div class="columna "> <span>&#9815;</span> </div>
+            <div class="columna black"> <span>&#9816;</span> </div>
+            <div class="columna"> <span>&#9814;</span> </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
