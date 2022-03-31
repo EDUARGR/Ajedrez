@@ -37,6 +37,11 @@ body{
 .tablero .filas .black{
     background-color: #e4b17d;
 }
+
+.green{
+    background-color: #04ff1152!important;
+    transition: all .2s ease-out;
+}
 .boton{
     margin: 10px auto;
     border: 0;
@@ -48,6 +53,7 @@ body{
     color: white;
     border-radius: 40px;
     background-color: #000;
+    cursor: pointer;
 }
 .boton:hover {
     background-color: #280933;
